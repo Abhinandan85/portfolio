@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhinandan Kumar — Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Theme Toggle -->
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+    <i class="fas fa-sun"></i>
+  </button>
+
+  <!-- Mobile Menu Toggle -->
+  <button id="mobileToggle" class="mobile-toggle" aria-label="Open menu">
+    <i class="fas fa-bars"></i>
+  </button>
+
+  <div class="page-wrapper d-flex">
+    <!-- Sidebar -->
+    <nav id="sidebar" class="sidebar">
+      <div class="profile-section text-center">
+        <img src="assets/profile.png" alt="Profile" class="profile-img">
+        <h3 class="profile-name">Abhinandan Kumar</h3>
+        <p class="profile-title">Software Engineer</p>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/abhinandan-kumar-02736721b" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:abhinandankumarbth12@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+918541836015" class="social-link"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+
+      <ul class="nav-menu">
+        <li class="nav-item active"><a class="nav-link" href="#home" data-target="home"><i class="fas fa-home"></i> <span>Home</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#about" data-target="about"><i class="fas fa-user"></i> <span>About</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills" data-target="skills"><i class="fas fa-code"></i> <span>Skills</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements" data-target="achievements"><i class="fas fa-award"></i> <span>Achievements</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume" data-target="resume"><i class="fas fa-graduation-cap"></i> <span>Resume-Education</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" data-target="contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <main class="main-content">
+      <!-- HOME -->
+      <section id="home" class="section active">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <h1 class="main-heading">Hi, I'm <span class="accent">Abhinandan Kumar</span></h1>
+              <h2 class="sub-heading">Aspiring <span class="typed-text" aria-live="polite"></span></h2>
+              <p class="intro-text">A passionate Computer Science student with strong foundations in programming, problem-solving, and software development. Skilled in Java, Angular, and full-stack development, with hands-on experience in building projects using Spring Boot, PostgreSQL, and modern web technologies. Eager to contribute to innovative projects, collaborate in dynamic teams, and continuously grow professionally in the tech industry. Highly motivated to learn, adapt, and deliver high-quality software solutions..</p>
+
+              <div class="cta-buttons mt-3">
+                <a href="#contact" class="btn btn-primary me-2" data-target="contact">Get in Touch</a>
+                <a href="#resume" class="btn btn-outline-primary" data-target="resume">View Resume</a>
+              </div>
+            </div>
+            <div class="col-md-5 text-center d-none d-md-block">
+              <div class="profile-hero">
+                <img src="assets/profile.png" alt="Profile" class="profile-hero-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="row">
+            <div class="col-md-7">
+              <p>I am a passionate Computer Science student seeking Software Engineer opportunities to leverage my technical skills and apply theoretical knowledge in practical scenarios. Eager to contribute to innovative projects, enhance problem-solving abilities, and grow professionally in the tech industry.</p>
+            </div>
+            <div class="col-md-5">
+              <div class="about-info">
+                <p><strong>Phone:</strong> +91 8541836015</p>
+                <p><strong>Email:</strong> abhinandankumarbth12@gmail.com</p>
+                <p><strong>Location:</strong> West Champaran, Bihar, 845438</p>
+                <p><strong>Languages:</strong> English, Hindi</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-title text-center mb-4">My Skills</h2>
+    <div class="row g-3">
+      <!-- Java -->
+      <div class="col-md-4 mb-4">
+        <div class="skill-card text-center">
+          <i class="fab fa-java skill-icon fa-3x"></i>
+          <h4>Java</h4>
+          <p>OOPs, Collections Framework</p>
+        </div>
+      </div>
+
+      <!-- Angular -->
+      <div class="col-md-4 mb-4">
+        <div class="skill-card text-center">
+          <i class="fab fa-angular skill-icon fa-3x"></i>
+          <h4>Angular</h4>
+          <p>Standalone components, services, routing</p>
+        </div>
+      </div>
+
+      <!-- HTML -->
+      <div class="col-md-4 mb-4">
+        <div class="skill-card text-center">
+          <i class="fab fa-html5 skill-icon fa-3x"></i>
+          <h4>HTML</h4>
+          <p>Semantic markup, forms, accessibility</p>
+        </div>
+      </div>
+
+      <!-- CSS -->
+      <div class="col-md-4 mb-4">
+        <div class="skill-card text-center">
+          <i class="fab fa-css3-alt skill-icon fa-3x"></i>
+          <h4>CSS</h4>
+          <p>Flexbox, Grid, animations, responsive design</p>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="col-md-4 mb-4">
+        <div class="skill-card text-center">
+          <i class="fab fa-js skill-icon fa-3x"></i>
+          <h4>JavaScript</h4>
+          <p>ES6+, DOM, Event handling, AJAX</p>
+        </div>
+      </div>
+
+      <!-- SQL -->
+      <div class="col-md-4 mb-4">
+        <div class="skill-card text-center">
+          <i class="fas fa-database skill-icon fa-3x"></i>
+          <h4>SQL</h4>
+          <p>Queries, Joins, Stored Procedures</p>
+        </div>
+      </div>
+
+      <!-- GitHub -->
+      <div class="col-md-4 mb-4">
+        <div class="skill-card text-center">
+          <i class="fab fa-github skill-icon fa-3x"></i>
+          <h4>GitHub</h4>
+          <p>Version control, collaboration, Git workflow</p>
+        </div>
+      </div>
+
+      <!-- Prowler -->
+      <div class="col-md-4 mb-4">
+        <div class="skill-card text-center">
+          <i class="fas fa-shield-alt skill-icon fa-3x"></i>
+          <h4>Prowler</h4>
+          <p>AWS Security, Compliance & Audit checks</p>
+        </div>
+      </div>
+
+      <!-- Development Tools -->
+      <div class="col-12 mt-3 text-center">
+        <h5>Development Tools</h5>
+        <div class="tools-list justify-content-center">
+          <span class="tool-badge">Eclipse</span>
+          <span class="tool-badge">VS Code</span>
+          <span class="tool-badge">PgAdmin</span>
+          <span class="tool-badge">Postman</span>
+          <span class="tool-badge">Spring Tool Suite</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!-- ACHIEVEMENTS -->
+      <section id="achievements" class="section">
+        <div class="container">
+          <h2 class="section-title">Achievements & Certifications</h2>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="achievement-card">
+                <i class="fas fa-certificate achievement-icon"></i>
+                <h4>MathWorks Certificate</h4>
+                <p>Certified by MathWorks</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="achievement-card">
+                <i class="fab fa-microsoft achievement-icon"></i>
+                <h4>Microsoft Azure</h4>
+                <p>Azure fundamentals / cloud basics</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME (Education + Internships) -->
+<section id="resume" class="section">
+  <div class="container">
+    <h2 class="section-title">Education & Experience</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Education</h5>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h6>B.E. Computer Science Engineering</h6>
+            <p>Excel Engineering College, Tamilnadu — CGPA: 7.9</p>
+            <small class="muted">2021 - 2025</small>
+          </div>
+          <div class="timeline-item">
+            <h6>Higher Secondary Education</h6>
+            <p>Bipin High School, Bettiah, Bihar — 75.4%</p>
+            <small class="muted">2018 - 2020</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h5>Internships</h5>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h6>Java Full Stack Development</h6>
+            <p>Capgemini (TNS India Foundation) — Placement Management System using Spring Boot, Angular, Postgres.</p>
+            <small class="muted">Aug 2024 - Jan 2025</small>
+          </div>
+          <div class="timeline-item">
+            <h6>Core Java Development</h6>
+            <p>Durga Tech — Projects: Calculator, Palindrome</p>
+            <small class="muted">Dec 2023 - Jan 2024</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✅ Resume Download Button -->
+    <div class="mt-4 text-center">
+      <a href="assets/Abhinandan_Kumar_Resume.pdf" download class="btn btn-primary">
+        <i class="fas fa-download"></i> Download Resume
+      </a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact Form Section -->
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/xzzjzonk"
+          method="POST"
+          class="contact-form bg-card"
+        >
+          <!-- Name -->
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <!-- Mobile -->
+          <div class="mb-3">
+            <label for="mobile" class="form-label">Mobile Number</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="mobile"
+              name="mobile"
+              placeholder="Enter your mobile number"
+              pattern="[0-9]{10}"
+              required
+            />
+            <small class="text-muted">Format: 10 digits (e.g. 9876543210)</small>
+          </div>
+
+          <!-- Message -->
+          <div class="mb-3">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+          </div>
+
+          <!-- Submit -->
+          <button type="submit" class="btn btn-primary w-100">
+            Send Message
+          </button>
+
+          <!-- Status message -->
+          <p id="form-status" class="mt-3 text-center fw-bold"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <footer class="text-center py-4 muted">&copy; <span id="year"></span> Abhinandan Kumar • Built with ❤️</footer>
+    </main>
+  </div>
+
+  <!-- Bootstrap JS bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom script -->
+  <script src="script.js"></script>
+</body>
+</html>
