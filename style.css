@@ -229,3 +229,15 @@ footer{color:var(--muted);margin-top:2.6rem;border-top:1px solid var(--border);p
 /* Tiny extras for accessibility */
 a{outline:none}
 a:focus{box-shadow:0 0 0 3px rgba(0,123,255,.12);border-radius:6px}
+
+#contact {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  min-height: 100vh;       /* full viewport height */
+  text-align: center;      /* center text inside */
+}
+
+#contact .container {
+  max-width: 600px;        /* optional, for better width control */
+}
